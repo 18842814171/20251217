@@ -11,6 +11,3 @@ aarch64-linux-gnu-gcc -static "$mid_file_s" \
   -L build/lib \
   -l:sylib.a \
   -o "$target_file"
-
-
-  ##¸Äºó
