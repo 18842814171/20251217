@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/mnt/d/作业/编译原理/T202510358205721-859-main/include/passes -I/mnt/d/作业/编译原理/T202510358205721-859-main/include/ast -I/mnt/d/作业/编译原理/T202510358205721-859-main/include/codegen -I/mnt/d/作业/编译原理/T202510358205721-859-main/include/ir -I/mnt/d/作业/编译原理/T202510358205721-859-main/include/machineir -I/mnt/d/作业/编译原理/T202510358205721-859-main/include/util -I/mnt/d/作业/编译原理/T202510358205721-859-main/antlr
 
-CXX_FLAGS = -g -std=gnu++17
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17
 

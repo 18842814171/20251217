@@ -1,0 +1,32 @@
+# 编译器设置
+CXX = g++
+CXXFLAGS = -std=c++17 -O2 -Iinclude -Iinclude/ast -Iinclude/codegen -Iinclude/ir -Iinclude/machineir -Iinclude/passes -Iinclude/util -Iantlr -Iantlr/antlr -I./extlibs -I/usr/local/include
+LDFLAGS = -L./extlibs -lantlr4-runtime -Wl,-rpath=./extlibs -L/usr/local/lib -lantlr4-runtime
+
+# 查找所有源文件
+CPP_SOURCES = src/compiler.cpp $(wildcard src/*/*.cpp) $(wildcard src/*/*/*.cpp) $(wildcard antlr/*.cpp) 
+
+# 生成对应的目标文件 (.o 文件)
+OBJ_FILES = $(CPP_SOURCES:.cpp=.o)
+
+# 最终目标
+TARGET = compiler
+
+# 默认目标
+all: $(TARGET)
+
+# 链接步骤
+$(TARGET): $(OBJ_FILES)
+	@echo "链接目标文件..."
+	$(CXX) $(OBJ_FILES) -o $@ $(LDFLAGS)
+
+# 编译步骤（模式规则）
+%.o: %.cpp
+	@echo "编译: $<"
+	$(CXX) $(CXXFLAGS) -c $< -o $@ build/lib/sylib++.a
+
+# 清理
+clean:
+	rm -f $(OBJ_FILES) $(TARGET)
+
+.PHONY: all clean
