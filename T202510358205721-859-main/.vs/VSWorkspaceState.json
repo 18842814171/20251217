@@ -9,12 +9,15 @@
   },
   "ExpandedNodes": [
     "",
-    "\\antlr_backup_old",
     "\\build",
+    "\\build\\custom",
+    "\\build\\example",
+    "\\build\\example\\functional",
     "\\build\\lib",
-    "\\lib",
-    "\\tests"
+    "\\out",
+    "\\tests",
+    "\\tests\\functional"
   ],
-  "SelectedNode": "\\tests\\codegenTestold.sh",
+  "SelectedNode": "\\build\\example\\functional",
   "PreviewInSolutionExplorer": false
 }
