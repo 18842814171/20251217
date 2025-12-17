@@ -1,0 +1,4 @@
+/mnt/d/作业/编译原理/T202510358205721-859-main/build/CMakeFiles/antlr_sysy.dir
+/mnt/d/作业/编译原理/T202510358205721-859-main/build/CMakeFiles/compiler.dir
+/mnt/d/作业/编译原理/T202510358205721-859-main/build/CMakeFiles/edit_cache.dir
+/mnt/d/作业/编译原理/T202510358205721-859-main/build/CMakeFiles/rebuild_cache.dir

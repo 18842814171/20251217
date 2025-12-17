@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile-parallel||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makefile-parallel||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\antlr_backup_old\\antlr4_install.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:antlr_backup_old\\antlr4_install.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\astTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\astTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\output.mid||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\output.mid||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\final.sy||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|CMake \u6982\u8FF0\u9875||{B1CAA5B0-FEB1-4350-8AB9-F895876842F2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Makefile-parallel",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile-parallel",
+              "RelativeDocumentMoniker": "Makefile-parallel",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile-parallel",
+              "RelativeToolTip": "Makefile-parallel",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-16T12:13:02.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "antlr4_install.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\antlr_backup_old\\antlr4_install.sh",
+              "RelativeDocumentMoniker": "antlr_backup_old\\antlr4_install.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\antlr_backup_old\\antlr4_install.sh",
+              "RelativeToolTip": "antlr_backup_old\\antlr4_install.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-16T12:00:12.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "astTest.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\astTest.sh",
+              "RelativeDocumentMoniker": "tests\\astTest.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\astTest.sh",
+              "RelativeToolTip": "tests\\astTest.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-16T11:56:24.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Makefile",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile",
+              "RelativeDocumentMoniker": "Makefile",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile",
+              "RelativeToolTip": "Makefile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-16T06:53:52.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-16T06:53:10.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "output.mid",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\output.mid",
+              "RelativeDocumentMoniker": "tests\\output.mid",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\output.mid",
+              "RelativeToolTip": "tests\\output.mid",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARpSURBVEhL3ZZdbBRVFMd/d2ZnP9pOt4AGKbiCqUvRQqqN2tIKqy1po8ZYPyIJBOOLiS9VY4wPPvhio030GWJiYuShD2oMgpqI1caqGLQBihRFaG22tAWhLd3d7nZ35l4fptvux3SBFx/8JyeZe\u002B7c8z8f95wZ\u002BC\u002BhlCpU/f8gchdbtmy5r6mpaYdhGHATGUilUgwPDw8PDQ39kE6nU4X7K2Lfvn2vTkxMyHg8LhOJhIzH49eVWCwmR0ZGZG9v79nW1tY9Qgit0G4u9NxFfX19U0dHR7tpmhiGgWF48HjcREfXnWfDMLBtG9M0b6mrq2uIRqOTY2NjZ3Lt5qKEN4rijCpXva5rmKZJc3NzqLu7e397e/vuwnJlUUSYrVuh0awuX\u002B8sbFuSTCYRQoja2tqqrq6u/ZFIZI\u002Bb/SKFO5zIinWOg5qmMTU1SV9fH/39/Ugpg21tbS8B6wDnBi7iBgidFBZGphRIBVcTGWyjjObmFiKRCI2NjYTDYfx\u002Bvx9YC3hzT3pyF4Xo/\u002Bk4lpVh7tosAEoqpJIoaVMZXEWFaZJYE\u002BbKXJIn7w4SCAQoKwsAEAqFWLSfV8sSESr6Bo4xM3uNz34c5HBM58t5na8SHg5\u002Bcoh0JsOx44PEpcahKJy7JpFSIqWNEIJAwCEuxIqESoGUNn9dGKOi3M/mcIj1m2qoUKuRtuTU6bMIAT5NI6p8fDCaZippoZRYLIEsNAmlCAEEgh3b70e/ZBH7LsFvB7\u002Bn7WwXXmuOJx7bhQKSUrJV\u002B4fz8yk\u002BOjmBJW2XC7aMkoSWZXHo66Pcduk0z3/7Ho/qw8ykK1lYsPjw415sW7IgFHWhVby83sPnw3NkbOesW1vhTrjcAkIIItsfYEDz8ZxZxcHRqxwY1MEIsOfZTjy6QKC4HE/SVF2OKS2UKh4MuXAhXG5\u002B27b58/wocv1W0rvfZ90zb9PY\u002BQIPtz3CUPQKqzZuJp6y8SCYTkrSyevP7SLC3J6TShLwe6lQ09QZF2iq8XHPgxEy4Z0Mrm6gz7\u002BNw39blOkeBkZjbPBm0ESJ8NwIl6FASqqCQYz5earnxtmopvh1PM4XM0GOXDH45rLg\u002BHiC5HyS6jKb13bdhaGXMLkyoeOlZVmcHDrD7GSUP458yvipX7io\u002BxkVlczNxkhNz5CajZOeT9GwoZz6jbeiCdeZvQTXSZNN6TtvvQFKoZREKdA0jfNHL/IzJmp1ADWS4k4xzUPV6wiW\u002BxHC6UH32eugRIQKr\u002BF877xeHz6fD8Pw0L1zLfs3XeZForwZjnPgqRpat4WcU2ploixWIITsgF721jFUWebn6Xvv4N3Ha3m9o5aGTWsKD5bEioRuveSmYymyG0MeoVIKKZ16OTZy56FaXMuliKXMvq/yREqQUmYP5aEowvx/F6Pg2ZsnXq8Xr9dXJB6PTiAQcL2uecqWlpbOvXv3vhIMBquEEJ5stpybvuzs9TIohBAnTpw419PT0wP8DsSX9vJfBcAP3F74pb5JiEWJAZPAQnbjXwCCEsfxirVNAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-12-15T09:48:58.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "final.sy",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy",
+              "RelativeDocumentMoniker": "tests\\final.sy",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy",
+              "RelativeToolTip": "tests\\final.sy",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-15T09:48:19.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CMake \u6982\u8FF0\u9875",
+              "DocumentMoniker": "CMake \u6982\u8FF0\u9875",
+              "ToolTip": "CMake \u6982\u8FF0\u9875",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-15T06:54:57.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
