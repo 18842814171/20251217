@@ -3,60 +3,8 @@
   "WorkspaceRootPath": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\codegenTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenTestold.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\codegenTestold.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile-parallel1||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Makefile-parallel1||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenO1Test.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\codegenO1Test.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\antlr_backup_old\\antlr4_install.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:antlr_backup_old\\antlr4_install.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output2.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:output2.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.sy||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test.sy||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\final.sy||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\final.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\astTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\astTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output1.mid||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:output1.mid||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\build\\CMakeCache.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:build\\CMakeCache.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -67,11 +15,88 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\output.mid||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\output.mid||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|CMake \u6982\u8FF0\u9875||{B1CAA5B0-FEB1-4350-8AB9-F895876842F2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenO1Test.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\codegenO1Test.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\passesTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\passesTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\irTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\irTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\final.sy||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\passesTest2.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\passesTest2.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileLib2.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\compileLib2.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\compileTest.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileTest-old.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\compileTest-old.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.cppnotcp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:test.cppnotcp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\src\\compiler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\compiler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CHANGELOG.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CHANGELOG.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\build\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:build\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\lib\\sylib.c1||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lib\\sylib.c1||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileLib.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\compileLib.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output4.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:output4.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegen_check.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\codegen_check.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenTestold.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\codegenTestold.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output2.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:output2.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.s||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\final.s||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,7 +118,257 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAKwBAAAAAAAAAAAAALcBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-19T06:24:54.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "irTest.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\irTest.sh",
+              "RelativeDocumentMoniker": "tests\\irTest.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\irTest.sh",
+              "RelativeToolTip": "tests\\irTest.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABsAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-19T05:27:37.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "final.sy",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy",
+              "RelativeDocumentMoniker": "tests\\final.sy",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy",
+              "RelativeToolTip": "tests\\final.sy",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-19T05:27:06.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "compileLib2.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileLib2.sh",
+              "RelativeDocumentMoniker": "tests\\compileLib2.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileLib2.sh",
+              "RelativeToolTip": "tests\\compileLib2.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-19T05:26:28.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "passesTest2.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\passesTest2.sh",
+              "RelativeDocumentMoniker": "tests\\passesTest2.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\passesTest2.sh",
+              "RelativeToolTip": "tests\\passesTest2.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-17T11:57:12.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "test.cppnotcp",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.cppnotcp",
+              "RelativeDocumentMoniker": "test.cppnotcp",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.cppnotcp",
+              "RelativeToolTip": "test.cppnotcp",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAALMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T09:29:31.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "compileTest.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileTest.sh",
+              "RelativeDocumentMoniker": "tests\\compileTest.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileTest.sh",
+              "RelativeToolTip": "tests\\compileTest.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-17T08:50:05.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "compiler.cpp",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\src\\compiler.cpp",
+              "RelativeDocumentMoniker": "src\\compiler.cpp",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\src\\compiler.cpp",
+              "RelativeToolTip": "src\\compiler.cpp",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAAABoBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-17T08:48:06.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CHANGELOG.md",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CHANGELOG.md",
+              "RelativeDocumentMoniker": "CHANGELOG.md",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CHANGELOG.md",
+              "RelativeToolTip": "CHANGELOG.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-17T08:47:48.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Makefile",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\build\\Makefile",
+              "RelativeDocumentMoniker": "build\\Makefile",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\build\\Makefile",
+              "RelativeToolTip": "build\\Makefile",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T08:47:21.13Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-17T08:47:08.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Makefile-parallel1",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile-parallel1",
+              "RelativeDocumentMoniker": "Makefile-parallel1",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile-parallel1",
+              "RelativeToolTip": "Makefile-parallel1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T08:45:23.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "sylib.c1",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\lib\\sylib.c1",
+              "RelativeDocumentMoniker": "lib\\sylib.c1",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\lib\\sylib.c1",
+              "RelativeToolTip": "lib\\sylib.c1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T08:45:02.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "output4.s",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output4.s",
+              "RelativeDocumentMoniker": "output4.s",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output4.s",
+              "RelativeToolTip": "output4.s",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-17T08:41:51.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\README.md",
+              "RelativeDocumentMoniker": "tests\\README.md",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\README.md",
+              "RelativeToolTip": "tests\\README.md",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-17T08:40:00.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "passesTest.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\passesTest.sh",
+              "RelativeDocumentMoniker": "tests\\passesTest.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\passesTest.sh",
+              "RelativeToolTip": "tests\\passesTest.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-17T07:22:18.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "compileTest-old.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileTest-old.sh",
+              "RelativeDocumentMoniker": "tests\\compileTest-old.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileTest-old.sh",
+              "RelativeToolTip": "tests\\compileTest-old.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-17T07:21:00.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "compileLib.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileLib.sh",
+              "RelativeDocumentMoniker": "tests\\compileLib.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\compileLib.sh",
+              "RelativeToolTip": "tests\\compileLib.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-17T07:17:16.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "codegen_check.sh",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegen_check.sh",
+              "RelativeDocumentMoniker": "tests\\codegen_check.sh",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegen_check.sh",
+              "RelativeToolTip": "tests\\codegen_check.sh",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2025-12-17T07:16:28.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-17T07:16:02.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "codegenTestold.sh",
               "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenTestold.sh",
               "RelativeDocumentMoniker": "tests\\codegenTestold.sh",
@@ -101,12 +376,11 @@
               "RelativeToolTip": "tests\\codegenTestold.sh",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|",
-              "WhenOpened": "2025-12-17T02:32:15.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T02:32:15.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "output2.s",
               "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output2.s",
               "RelativeDocumentMoniker": "output2.s",
@@ -114,38 +388,11 @@
               "RelativeToolTip": "output2.s",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-17T02:18:01.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T02:18:01.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "test.sy",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.sy",
-              "RelativeDocumentMoniker": "test.sy",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.sy",
-              "RelativeToolTip": "test.sy",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-17T02:13:52.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "test.s",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.s",
-              "RelativeDocumentMoniker": "test.s",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\test.s",
-              "RelativeToolTip": "test.s",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-17T02:13:43.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "final.s",
               "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.s",
               "RelativeDocumentMoniker": "tests\\final.s",
@@ -153,172 +400,20 @@
               "RelativeToolTip": "tests\\final.s",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-17T02:13:33.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T02:13:33.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "codegenO1Test.sh",
               "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenO1Test.sh",
               "RelativeDocumentMoniker": "tests\\codegenO1Test.sh",
               "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenO1Test.sh",
               "RelativeToolTip": "tests\\codegenO1Test.sh",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|",
               "WhenOpened": "2025-12-17T02:05:46.75Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "codegenTest.sh",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenTest.sh",
-              "RelativeDocumentMoniker": "tests\\codegenTest.sh",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\codegenTest.sh",
-              "RelativeToolTip": "tests\\codegenTest.sh",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
-              "WhenOpened": "2025-12-17T02:02:04.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "output1.mid",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output1.mid",
-              "RelativeDocumentMoniker": "output1.mid",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\output1.mid",
-              "RelativeToolTip": "output1.mid",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARpSURBVEhL3ZZdbBRVFMd/d2ZnP9pOt4AGKbiCqUvRQqqN2tIKqy1po8ZYPyIJBOOLiS9VY4wPPvhio030GWJiYuShD2oMgpqI1caqGLQBihRFaG22tAWhLd3d7nZ35l4fptvux3SBFx/8JyeZe\u002B7c8z8f95wZ\u002BC\u002BhlCpU/f8gchdbtmy5r6mpaYdhGHATGUilUgwPDw8PDQ39kE6nU4X7K2Lfvn2vTkxMyHg8LhOJhIzH49eVWCwmR0ZGZG9v79nW1tY9Qgit0G4u9NxFfX19U0dHR7tpmhiGgWF48HjcREfXnWfDMLBtG9M0b6mrq2uIRqOTY2NjZ3Lt5qKEN4rijCpXva5rmKZJc3NzqLu7e397e/vuwnJlUUSYrVuh0awuX\u002B8sbFuSTCYRQoja2tqqrq6u/ZFIZI\u002Bb/SKFO5zIinWOg5qmMTU1SV9fH/39/Ugpg21tbS8B6wDnBi7iBgidFBZGphRIBVcTGWyjjObmFiKRCI2NjYTDYfx\u002Bvx9YC3hzT3pyF4Xo/\u002Bk4lpVh7tosAEoqpJIoaVMZXEWFaZJYE\u002BbKXJIn7w4SCAQoKwsAEAqFWLSfV8sSESr6Bo4xM3uNz34c5HBM58t5na8SHg5\u002Bcoh0JsOx44PEpcahKJy7JpFSIqWNEIJAwCEuxIqESoGUNn9dGKOi3M/mcIj1m2qoUKuRtuTU6bMIAT5NI6p8fDCaZippoZRYLIEsNAmlCAEEgh3b70e/ZBH7LsFvB7\u002Bn7WwXXmuOJx7bhQKSUrJV\u002B4fz8yk\u002BOjmBJW2XC7aMkoSWZXHo66Pcduk0z3/7Ho/qw8ykK1lYsPjw415sW7IgFHWhVby83sPnw3NkbOesW1vhTrjcAkIIItsfYEDz8ZxZxcHRqxwY1MEIsOfZTjy6QKC4HE/SVF2OKS2UKh4MuXAhXG5\u002B27b58/wocv1W0rvfZ90zb9PY\u002BQIPtz3CUPQKqzZuJp6y8SCYTkrSyevP7SLC3J6TShLwe6lQ09QZF2iq8XHPgxEy4Z0Mrm6gz7\u002BNw39blOkeBkZjbPBm0ESJ8NwIl6FASqqCQYz5earnxtmopvh1PM4XM0GOXDH45rLg\u002BHiC5HyS6jKb13bdhaGXMLkyoeOlZVmcHDrD7GSUP458yvipX7io\u002BxkVlczNxkhNz5CajZOeT9GwoZz6jbeiCdeZvQTXSZNN6TtvvQFKoZREKdA0jfNHL/IzJmp1ADWS4k4xzUPV6wiW\u002BxHC6UH32eugRIQKr\u002BF877xeHz6fD8Pw0L1zLfs3XeZForwZjnPgqRpat4WcU2ploixWIITsgF721jFUWebn6Xvv4N3Ha3m9o5aGTWsKD5bEioRuveSmYymyG0MeoVIKKZ16OTZy56FaXMuliKXMvq/yREqQUmYP5aEowvx/F6Pg2ZsnXq8Xr9dXJB6PTiAQcL2uecqWlpbOvXv3vhIMBquEEJ5stpybvuzs9TIohBAnTpw419PT0wP8DsSX9vJfBcAP3F74pb5JiEWJAZPAQnbjXwCCEsfxirVNAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-12-17T02:01:33.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Makefile-parallel1",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile-parallel1",
-              "RelativeDocumentMoniker": "Makefile-parallel1",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\Makefile-parallel1",
-              "RelativeToolTip": "Makefile-parallel1",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-17T01:49:36.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CMakeCache.txt",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\build\\CMakeCache.txt",
-              "RelativeDocumentMoniker": "build\\CMakeCache.txt",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\build\\CMakeCache.txt",
-              "RelativeToolTip": "build\\CMakeCache.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-17T01:29:58.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "README.md",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\README.md",
-              "RelativeDocumentMoniker": "tests\\README.md",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\README.md",
-              "RelativeToolTip": "tests\\README.md",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-17T01:00:31.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "README.md",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAKEBAAAAAAAAAAAAAMABAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-17T00:55:26.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "antlr4_install.sh",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\antlr_backup_old\\antlr4_install.sh",
-              "RelativeDocumentMoniker": "antlr_backup_old\\antlr4_install.sh",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\antlr_backup_old\\antlr4_install.sh",
-              "RelativeToolTip": "antlr_backup_old\\antlr4_install.sh",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
-              "WhenOpened": "2025-12-16T12:00:12.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "astTest.sh",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\astTest.sh",
-              "RelativeDocumentMoniker": "tests\\astTest.sh",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\astTest.sh",
-              "RelativeToolTip": "tests\\astTest.sh",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
-              "WhenOpened": "2025-12-16T11:56:24.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CMakeLists.txt",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CMakeLists.txt",
-              "RelativeDocumentMoniker": "CMakeLists.txt",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\CMakeLists.txt",
-              "RelativeToolTip": "CMakeLists.txt",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwC0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-16T06:53:10.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "output.mid",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\output.mid",
-              "RelativeDocumentMoniker": "tests\\output.mid",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\output.mid",
-              "RelativeToolTip": "tests\\output.mid",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARpSURBVEhL3ZZdbBRVFMd/d2ZnP9pOt4AGKbiCqUvRQqqN2tIKqy1po8ZYPyIJBOOLiS9VY4wPPvhio030GWJiYuShD2oMgpqI1caqGLQBihRFaG22tAWhLd3d7nZ35l4fptvux3SBFx/8JyeZe\u002B7c8z8f95wZ\u002BC\u002BhlCpU/f8gchdbtmy5r6mpaYdhGHATGUilUgwPDw8PDQ39kE6nU4X7K2Lfvn2vTkxMyHg8LhOJhIzH49eVWCwmR0ZGZG9v79nW1tY9Qgit0G4u9NxFfX19U0dHR7tpmhiGgWF48HjcREfXnWfDMLBtG9M0b6mrq2uIRqOTY2NjZ3Lt5qKEN4rijCpXva5rmKZJc3NzqLu7e397e/vuwnJlUUSYrVuh0awuX\u002B8sbFuSTCYRQoja2tqqrq6u/ZFIZI\u002Bb/SKFO5zIinWOg5qmMTU1SV9fH/39/Ugpg21tbS8B6wDnBi7iBgidFBZGphRIBVcTGWyjjObmFiKRCI2NjYTDYfx\u002Bvx9YC3hzT3pyF4Xo/\u002Bk4lpVh7tosAEoqpJIoaVMZXEWFaZJYE\u002BbKXJIn7w4SCAQoKwsAEAqFWLSfV8sSESr6Bo4xM3uNz34c5HBM58t5na8SHg5\u002Bcoh0JsOx44PEpcahKJy7JpFSIqWNEIJAwCEuxIqESoGUNn9dGKOi3M/mcIj1m2qoUKuRtuTU6bMIAT5NI6p8fDCaZippoZRYLIEsNAmlCAEEgh3b70e/ZBH7LsFvB7\u002Bn7WwXXmuOJx7bhQKSUrJV\u002B4fz8yk\u002BOjmBJW2XC7aMkoSWZXHo66Pcduk0z3/7Ho/qw8ykK1lYsPjw415sW7IgFHWhVby83sPnw3NkbOesW1vhTrjcAkIIItsfYEDz8ZxZxcHRqxwY1MEIsOfZTjy6QKC4HE/SVF2OKS2UKh4MuXAhXG5\u002B27b58/wocv1W0rvfZ90zb9PY\u002BQIPtz3CUPQKqzZuJp6y8SCYTkrSyevP7SLC3J6TShLwe6lQ09QZF2iq8XHPgxEy4Z0Mrm6gz7\u002BNw39blOkeBkZjbPBm0ESJ8NwIl6FASqqCQYz5earnxtmopvh1PM4XM0GOXDH45rLg\u002BHiC5HyS6jKb13bdhaGXMLkyoeOlZVmcHDrD7GSUP458yvipX7io\u002BxkVlczNxkhNz5CajZOeT9GwoZz6jbeiCdeZvQTXSZNN6TtvvQFKoZREKdA0jfNHL/IzJmp1ADWS4k4xzUPV6wiW\u002BxHC6UH32eugRIQKr\u002BF877xeHz6fD8Pw0L1zLfs3XeZForwZjnPgqRpat4WcU2ploixWIITsgF721jFUWebn6Xvv4N3Ha3m9o5aGTWsKD5bEioRuveSmYymyG0MeoVIKKZ16OTZy56FaXMuliKXMvq/yREqQUmYP5aEowvx/F6Pg2ZsnXq8Xr9dXJB6PTiAQcL2uecqWlpbOvXv3vhIMBquEEJ5stpybvuzs9TIohBAnTpw419PT0wP8DsSX9vJfBcAP3F74pb5JiEWJAZPAQnbjXwCCEsfxirVNAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-12-15T09:48:58.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "final.sy",
-              "DocumentMoniker": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy",
-              "RelativeDocumentMoniker": "tests\\final.sy",
-              "ToolTip": "D:\\\u4F5C\u4E1A\\\u7F16\u8BD1\u539F\u7406\\T202510358205721-859-main\\tests\\final.sy",
-              "RelativeToolTip": "tests\\final.sy",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-15T09:48:19.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CMake \u6982\u8FF0\u9875",
-              "DocumentMoniker": "CMake \u6982\u8FF0\u9875",
-              "ToolTip": "CMake \u6982\u8FF0\u9875",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-15T06:54:57.63Z"
             }
           ]
         }
