@@ -1,0 +1,1 @@
+/tests/passesTest2.sh ./tests/final.sy ./tests/final_out1223

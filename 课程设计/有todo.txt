@@ -1,0 +1,11 @@
+有todo的地方
+
+1.src/GVN.cpp
+2.include/ir/Instruction.hpp//这个可能不能要
+3.src/codegen/ARM_codegen.cpp
+include/codegen/ARM_codegen.hpp
+4.peephole优化未加入，从另一个项目里贴了peephole相关代码："课程设计/ref/"文件夹
+
+每个人从1，2，4里选择一个：
+（1）在所操作的文件里添加调试语句，整个文件里能加调试语句的地方都加
+（2）如果写了TODO，尝试一下能不能做【老师希望我们做+1周之内可实现】

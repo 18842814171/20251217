@@ -5,7 +5,7 @@
 #include "MachineFunction.hpp"
 #include "MachineDominator.hpp"
 
-#define DEBUG 0
+#define DEBUG 1 //原来是0
 #include <algorithm>
 
 #include "MachineBasicBlock.hpp"

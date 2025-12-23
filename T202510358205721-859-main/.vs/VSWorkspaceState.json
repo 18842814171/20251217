@@ -9,13 +9,16 @@
   },
   "ExpandedNodes": [
     "",
-    "\\build\\CMakeFiles",
+    "\\build",
     "\\build\\custom",
+    "\\build\\custom\\functional",
     "\\build\\example",
     "\\build\\example\\functional",
-    "\\src",
-    "\\src\\ast"
+    "\\include",
+    "\\include\\util",
+    "\\out",
+    "\\src"
   ],
-  "SelectedNode": "\\Makefile-parallel1",
+  "SelectedNode": "\\tests\\functional",
   "PreviewInSolutionExplorer": false
 }
