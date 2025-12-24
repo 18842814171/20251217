@@ -1,0 +1,30 @@
+# Visual Studio 临时文件
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.db
+*.ipch
+*.sdf
+*.opensdf
+*.opendb
+
+# 编译输出
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+bin/
+obj/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+
+# Office 临时文件
+~$*.docx
+*.tmp
