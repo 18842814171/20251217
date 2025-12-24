@@ -11,7 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # antlr 文件集
 aux_source_directory(${CMAKE_SOURCE_DIR}/antlr antlr_sources)
 # 构建 antlr_lib 作为 antlr sysY 库
-add_library(antlr_sysy SHARED ${antlr_sources})
+add_library(antlr_sysy SHARED ${antlr_sources} "src/codegen/peepHole.cpp")
 # 定义一个通用的 antlr_lib 库目标
 add_library(antlr_lib INTERFACE)
 target_link_libraries(antlr_lib INTERFACE antlr_sysy antlr4-runtime)
@@ -41,6 +41,6 @@ aux_source_directory(src/machineir machineirSource)
 
 
 # 添加源文件
-add_executable(compiler src/compiler.cpp ${utilSource} ${astSource} ${irSource} ${codegenSource} ${passesSource} ${machineirSource})
+add_executable(compiler src/compiler.cpp ${utilSource} ${astSource} ${irSource} ${codegenSource} ${passesSource} ${machineirSource} "src/codegen/peepHole.cpp")
 
 target_link_libraries(compiler PRIVATE antlr_lib)

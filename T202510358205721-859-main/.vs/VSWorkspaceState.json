@@ -9,16 +9,16 @@
   },
   "ExpandedNodes": [
     "",
-    "\\build",
-    "\\build\\custom",
-    "\\build\\custom\\functional",
-    "\\build\\example",
     "\\build\\example\\functional",
     "\\include",
+    "\\include\\codegen",
     "\\include\\util",
-    "\\out",
-    "\\src"
+    "\\out\\build",
+    "\\src",
+    "\\src\\codegen",
+    "\\src\\ir",
+    "\\src\\util"
   ],
-  "SelectedNode": "\\tests\\functional",
+  "SelectedNode": "\\include\\codegen\\peepHole.hpp",
   "PreviewInSolutionExplorer": false
 }
