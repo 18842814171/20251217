@@ -1,5 +1,6 @@
 # Visual Studio 临时文件
 .vs/
+**/.vs/
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
@@ -16,10 +17,6 @@ Debug/
 Release/
 x64/
 x86/
-build/
-out/
-bin/
-obj/
 
 # 系统文件
 Thumbs.db
@@ -28,3 +25,7 @@ Desktop.ini
 # Office 临时文件
 ~$*.docx
 *.tmp
+*.ppt
+*.pptx
+*.doc
+*.pdf
