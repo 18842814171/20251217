@@ -17,6 +17,10 @@ Debug/
 Release/
 x64/
 x86/
+out/
+build/
+**/out/
+**/build/
 
 # 系统文件
 Thumbs.db
