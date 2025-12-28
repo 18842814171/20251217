@@ -6,7 +6,7 @@
 #include "Constant.hpp"
 #include "CountLZ.hpp"
 
-#define DEBUG 1
+#define DEBUG 0
 #include "SignalSpread.hpp"
 #include "Type.hpp"
 #include "Util.hpp"

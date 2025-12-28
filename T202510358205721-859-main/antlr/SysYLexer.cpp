@@ -1,9 +1,10 @@
-#include <mutex>
 
-// Generated from SysY.g4 by ANTLR 4.12.0
+// Generated from SysY.g4 by ANTLR 4.13.2
 
 
 #include "SysYLexer.h"
+
+#include "Util.hpp"
 
 
 using namespace antlr4;
@@ -42,11 +43,20 @@ struct SysYLexerStaticData final {
   std::unique_ptr<antlr4::atn::ATN> atn;
 };
 
-static std::once_flag sysylexerLexerOnceFlag;
-SysYLexerStaticData *sysylexerLexerStaticData = nullptr;
+::antlr4::internal::OnceFlag sysylexerLexerOnceFlag;
+#if ANTLR4_USE_THREAD_LOCAL_CACHE
+static thread_local
+#endif
+std::unique_ptr<SysYLexerStaticData> sysylexerLexerStaticData = nullptr;
 
 void sysylexerLexerInitialize() {
-  assert(sysylexerLexerStaticData == nullptr);
+#if ANTLR4_USE_THREAD_LOCAL_CACHE
+  if (sysylexerLexerStaticData != nullptr) {
+    return;
+  }
+#else
+  ASSERT(sysylexerLexerStaticData == nullptr);
+#endif
   auto staticData = std::make_unique<SysYLexerStaticData>(
     std::vector<std::string>{
       "INT", "FLOAT", "VOID", "IF", "ELSE", "WHILE", "CONTINUE", "BREAK", 
@@ -221,7 +231,7 @@ void sysylexerLexerInitialize() {
   for (size_t i = 0; i < count; i++) { 
     staticData->decisionToDFA.emplace_back(staticData->atn->getDecisionState(i), i);
   }
-  sysylexerLexerStaticData = staticData.release();
+  sysylexerLexerStaticData = std::move(staticData);
 }
 
 }
@@ -267,5 +277,9 @@ const atn::ATN& SysYLexer::getATN() const {
 
 
 void SysYLexer::initialize() {
-  std::call_once(sysylexerLexerOnceFlag, sysylexerLexerInitialize);
+#if ANTLR4_USE_THREAD_LOCAL_CACHE
+  sysylexerLexerInitialize();
+#else
+  ::antlr4::internal::call_once(sysylexerLexerOnceFlag, sysylexerLexerInitialize);
+#endif
 }

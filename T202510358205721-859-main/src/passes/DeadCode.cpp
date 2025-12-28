@@ -10,7 +10,7 @@
 #include "Instruction.hpp"
 #include "Type.hpp"
 
-#define DEBUG 1
+#define DEBUG 0
 #include "Config.hpp"
 #include "Constant.hpp"
 #include "Util.hpp"

@@ -1,4 +1,4 @@
-CXX      := g++
+CXX      := clang++
 INCLUDES := $(shell find include antlr -type d)
 CXXFLAGS := -std=c++17 -O2  $(addprefix -I,$(INCLUDES)) -I./extlibs
 LDFLAGS  := -L./extlibs -lantlr4-runtime -Wl,-rpath=./extlibs

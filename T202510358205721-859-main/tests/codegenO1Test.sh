@@ -3,6 +3,5 @@ target_file="$2"
 
 mid_file_s="${target_file}.s"
 
-# Éú³ÉARM»ã±à
 ./build/compiler -S -o "$mid_file_s" "$source_file" -O1
-aarch64-linux-gnu-g++ -x c++ "$mid_file_s" -include ./lib/sylib.h1 -L ./build/lib -l:sylib++.a -o "$target_file" 
+aarch64-linux-gnu-gcc "$mid_file_s"  -L build/lib -l:sylib.a -static -g -o "$target_file"

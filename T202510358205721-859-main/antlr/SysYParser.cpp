@@ -1,12 +1,13 @@
-#include <mutex>
 
-// Generated from SysY.g4 by ANTLR 4.12.0
+// Generated from SysY.g4 by ANTLR 4.13.2
 
 
 #include "SysYListener.h"
 #include "SysYVisitor.h"
 
 #include "SysYParser.h"
+
+#include "Util.hpp"
 
 
 using namespace antlrcpp;
@@ -38,11 +39,20 @@ struct SysYParserStaticData final {
   std::unique_ptr<antlr4::atn::ATN> atn;
 };
 
-static std::once_flag sysyParserOnceFlag;
-SysYParserStaticData *sysyParserStaticData = nullptr;
+::antlr4::internal::OnceFlag sysyParserOnceFlag;
+#if ANTLR4_USE_THREAD_LOCAL_CACHE
+static thread_local
+#endif
+std::unique_ptr<SysYParserStaticData> sysyParserStaticData = nullptr;
 
 void sysyParserInitialize() {
-  assert(sysyParserStaticData == nullptr);
+#if ANTLR4_USE_THREAD_LOCAL_CACHE
+  if (sysyParserStaticData != nullptr) {
+    return;
+  }
+#else
+  ASSERT(sysyParserStaticData == nullptr);
+#endif
   auto staticData = std::make_unique<SysYParserStaticData>(
     std::vector<std::string>{
       "compUnit", "compDecl", "decl", "constDecl", "bType", "constDef", 
@@ -209,7 +219,7 @@ void sysyParserInitialize() {
   for (size_t i = 0; i < count; i++) { 
     staticData->decisionToDFA.emplace_back(staticData->atn->getDecisionState(i), i);
   }
-  sysyParserStaticData = staticData.release();
+  sysyParserStaticData = std::move(staticData);
 }
 
 }
@@ -3811,5 +3821,9 @@ bool SysYParser::eqExpSempred(EqExpContext *_localctx, size_t predicateIndex) {
 }
 
 void SysYParser::initialize() {
-  std::call_once(sysyParserOnceFlag, sysyParserInitialize);
+#if ANTLR4_USE_THREAD_LOCAL_CACHE
+  sysyParserInitialize();
+#else
+  ::antlr4::internal::call_once(sysyParserOnceFlag, sysyParserInitialize);
+#endif
 }

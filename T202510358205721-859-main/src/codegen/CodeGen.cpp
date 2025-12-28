@@ -10,7 +10,7 @@
 #include "MachineOperand.hpp"
 #include "CodeString.hpp"
 
-#define DEBUG 1
+#define DEBUG 0
 #include <iomanip>
 
 #include "CountLZ.hpp"

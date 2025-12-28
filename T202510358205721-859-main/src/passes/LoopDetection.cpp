@@ -11,7 +11,7 @@
 #include "Instruction.hpp"
 
 
-#define DEBUG 1
+#define DEBUG 0
 #include "Util.hpp"
 
 

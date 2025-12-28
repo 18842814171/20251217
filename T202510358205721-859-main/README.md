@@ -439,7 +439,7 @@ cmake --build build --target irTest
 ```
 cmake --build build --target compiler
 ```
-
+// cmake --build build --target compiler -j$(nproc)
 构建编译器本体，这部分内容还未实现。
 
 ## 测试

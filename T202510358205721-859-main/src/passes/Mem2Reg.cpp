@@ -15,7 +15,7 @@
 #include "Type.hpp"
 #include "Value.hpp"
 
-#define DEBUG 1
+#define DEBUG 0
 #include "FuncInfo.hpp"
 #include "Util.hpp"
 
