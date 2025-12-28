@@ -10,3 +10,6 @@ $(TARGET): $(SOURCES)
 
 clean:
 	rm -f $(TARGET)
+
+# cmake --build build --target compiler -j$(nproc)
+# cmake --build build --target clean

@@ -1,0 +1,28 @@
+CXX = g++
+CXXFLAGS = -std=c++17 -O2 -Iinclude -Iinclude/ast -Iinclude/codegen -Iinclude/ir \
+           -Iinclude/machineir -Iinclude/passes -Iinclude/util -Iantlr -Iantlr/antlr \
+           -I./extlibs -MMD -MP # -MMD generates .d files for headers
+LDFLAGS = -L./extlibs -lantlr4-runtime -Wl,-rpath=./extlibs -L/usr/local/lib
+
+CPP_SOURCES = src/compiler.cpp $(wildcard src/*/*.cpp) $(wildcard src/*/*/*.cpp) $(wildcard antlr/*.cpp)
+OBJ_FILES = $(CPP_SOURCES:.cpp=.o)
+DEP_FILES = $(OBJ_FILES:.o=.d)
+
+TARGET = compiler
+
+all: $(TARGET)
+
+$(TARGET): $(OBJ_FILES)
+	@echo "Linking..."
+	$(CXX) $(OBJ_FILES) -o $@ $(LDFLAGS) build/lib/sylib++.a
+
+%.o: %.cpp
+	@echo "Compiling: $<"
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+-include $(DEP_FILES)
+
+clean:
+	rm -f $(OBJ_FILES) $(DEP_FILES) $(TARGET)
+
+.PHONY: all clean

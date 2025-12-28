@@ -3,7 +3,7 @@
 #include "Type.hpp"
 #include "Tensor.hpp"
 
-#define DEBUG 0
+#define DEBUG 1
 #include "Config.hpp"
 #include "Util.hpp"
 

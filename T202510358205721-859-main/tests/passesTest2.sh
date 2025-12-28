@@ -15,4 +15,6 @@ llc -march=aarch64 -mcpu=cortex-a53 -filetype=asm "${base_path}.ll" -o "${base_p
 aarch64-linux-gnu-g++ "${base_path}.s" -include lib/sylib.h1 -L build/lib -l:sylib.a -o "${base_path}"
 
 # 4. Create the .out file (the test driver expects this specifically)
-cp "${base_path}" "$target_file"
+if [ "$base_path" != "$target_file" ]; then
+    cp "$base_path" "$target_file"
+fi

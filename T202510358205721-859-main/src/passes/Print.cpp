@@ -1,7 +1,7 @@
 #include "Print.hpp"
 
 
-#define DEBUG 0
+#define DEBUG 1
 #include "Dominators.hpp"
 #include "LoopDetection.hpp"
 #include "Util.hpp"

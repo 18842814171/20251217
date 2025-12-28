@@ -4,7 +4,7 @@
 #include "MachineFunction.hpp"
 #include "MachineInstruction.hpp"
 
-#define DEBUG 0
+#define DEBUG 1
 #include "Util.hpp"
 
 void CleanCode::removeInst(MInstruction* inst)

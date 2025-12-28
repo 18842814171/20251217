@@ -30,75 +30,75 @@ declare void @putfarray(i32, float*)
 
 define void @read_map() {
 label_0:		; succs = %label_1
-  %op0 = call i32 @getint()
-  store i32 %op0, i32* @width
-  %op1 = call i32 @getint()
-  store i32 %op1, i32* @height
-  %op2 = call i32 @getint()
-  store i32 %op2, i32* @steps
-  %op3 = call i32 @getch()
-  %op24 = bitcast [250000 x i32]* @sheet1 to [500 x [500 x i32]]* 
-  %op12 = load i32, i32* @width
-  %op6 = load i32, i32* @height
+  %op3 = call i32 @getint()
+  store i32 %op3, i32* @width
+  %op4 = call i32 @getint()
+  store i32 %op4, i32* @height
+  %op5 = call i32 @getint()
+  store i32 %op5, i32* @steps
+  %op6 = call i32 @getch()
+  %op31 = bitcast [250000 x i32]* @sheet1 to [500 x [500 x i32]]* 
+  %op15 = load i32, i32* @width
+  %op9 = load i32, i32* @height
   br label %label_1
 label_1:		; preds = %label_4, %label_0		; succs = %label_2, %label_9
-  %op5 = phi i32 [ 1, %label_0 ], [ %op16, %label_4 ]
-  %op7 = icmp sle i32 %op5, %op6
-  br i1 %op7, label %label_9, label %label_2
+  %op39 = phi i32 [ 1, %label_0 ], [ %op20, %label_4 ]
+  %op10 = icmp sle i32 %op39, %op9
+  br i1 %op10, label %label_9, label %label_2
 label_2:		; preds = %label_1
   ret void
 label_3:		; preds = %label_8, %label_9		; succs = %label_5, %label_4
-  %op11 = phi i32 [ %op27, %label_8 ], [ 1, %label_9 ]
-  %op13 = icmp sle i32 %op11, %op12
-  br i1 %op13, label %label_5, label %label_4
+  %op41 = phi i32 [ %op37, %label_8 ], [ 1, %label_9 ]
+  %op16 = icmp sle i32 %op41, %op15
+  br i1 %op16, label %label_5, label %label_4
 label_4:		; preds = %label_3		; succs = %label_1
-  %op15 = call i32 @getch()
-  %op16 = add i32 %op5, 1
+  %op18 = call i32 @getch()
+  %op20 = add i32 %op39, 1
   br label %label_1
 label_5:		; preds = %label_3		; succs = %label_6, %label_7
-  %op18 = call i32 @getch()
-  %op19 = icmp eq i32 %op18, 35
-  br i1 %op19, label %label_6, label %label_7
+  %op22 = call i32 @getch()
+  %op24 = icmp eq i32 %op22, 35
+  br i1 %op24, label %label_6, label %label_7
 label_6:		; preds = %label_5		; succs = %label_8
-  %op28 = getelementptr [500 x i32], [500 x i32]* %op31, i32 0, i32 %op11
-  store i32 1, i32* %op28
+  %op43 = getelementptr [500 x i32], [500 x i32]* %op46, i32 0, i32 %op41
+  store i32 1, i32* %op43
   br label %label_8
 label_7:		; preds = %label_5		; succs = %label_8
-  %op29 = getelementptr [500 x i32], [500 x i32]* %op31, i32 0, i32 %op11
-  store i32 0, i32* %op29
+  %op44 = getelementptr [500 x i32], [500 x i32]* %op46, i32 0, i32 %op41
+  store i32 0, i32* %op44
   br label %label_8
 label_8:		; preds = %label_6, %label_7		; succs = %label_3
-  %op27 = add i32 %op11, 1
+  %op37 = add i32 %op41, 1
   br label %label_3
 label_9:		; preds = %label_1		; succs = %label_3
-  %op31 = getelementptr [500 x [500 x i32]], [500 x [500 x i32]]* %op24, i32 0, i32 %op5
+  %op46 = getelementptr [500 x [500 x i32]], [500 x [500 x i32]]* %op31, i32 0, i32 %op39
   br label %label_3
 }
 define void @put_map() {
 label_0:		; succs = %label_1
-  %op13 = bitcast [250000 x i32]* @sheet1 to [500 x [500 x i32]]* 
-  %op8 = load i32, i32* @width
-  %op2 = load i32, i32* @height
+  %op16 = bitcast [250000 x i32]* @sheet1 to [500 x [500 x i32]]* 
+  %op10 = load i32, i32* @width
+  %op4 = load i32, i32* @height
   br label %label_1
 label_1:		; preds = %label_4, %label_0		; succs = %label_2, %label_9
-  %op1 = phi i32 [ 1, %label_0 ], [ %op11, %label_4 ]
-  %op3 = icmp sle i32 %op1, %op2
-  br i1 %op3, label %label_9, label %label_2
+  %op28 = phi i32 [ 1, %label_0 ], [ %op14, %label_4 ]
+  %op5 = icmp sle i32 %op28, %op4
+  br i1 %op5, label %label_9, label %label_2
 label_2:		; preds = %label_1
   ret void
 label_3:		; preds = %label_8, %label_9		; succs = %label_5, %label_4
-  %op7 = phi i32 [ %op20, %label_8 ], [ 1, %label_9 ]
-  %op9 = icmp sle i32 %op7, %op8
-  br i1 %op9, label %label_5, label %label_4
+  %op29 = phi i32 [ %op26, %label_8 ], [ 1, %label_9 ]
+  %op11 = icmp sle i32 %op29, %op10
+  br i1 %op11, label %label_5, label %label_4
 label_4:		; preds = %label_3		; succs = %label_1
   call void @putch(i32 10)
-  %op11 = add i32 %op1, 1
+  %op14 = add i32 %op28, 1
   br label %label_1
 label_5:		; preds = %label_3		; succs = %label_6, %label_7
-  %op21 = getelementptr [500 x i32], [500 x i32]* %op23, i32 0, i32 %op7
-  %op15 = load i32, i32* %op21
-  %op16 = icmp eq i32 %op15, 1
-  br i1 %op16, label %label_6, label %label_7
+  %op30 = getelementptr [500 x i32], [500 x i32]* %op32, i32 0, i32 %op29
+  %op20 = load i32, i32* %op30
+  %op21 = icmp eq i32 %op20, 1
+  br i1 %op21, label %label_6, label %label_7
 label_6:		; preds = %label_5		; succs = %label_8
   call void @putch(i32 35)
   br label %label_8
@@ -106,120 +106,120 @@ label_7:		; preds = %label_5		; succs = %label_8
   call void @putch(i32 46)
   br label %label_8
 label_8:		; preds = %label_6, %label_7		; succs = %label_3
-  %op20 = add i32 %op7, 1
+  %op26 = add i32 %op29, 1
   br label %label_3
 label_9:		; preds = %label_1		; succs = %label_3
-  %op23 = getelementptr [500 x [500 x i32]], [500 x [500 x i32]]* %op13, i32 0, i32 %op1
+  %op32 = getelementptr [500 x [500 x i32]], [500 x [500 x i32]]* %op16, i32 0, i32 %op28
   br label %label_3
 }
 define void @swap12() {
 label_0:		; succs = %label_1
-  %op13 = bitcast [250000 x i32]* @sheet1 to [500 x [500 x i32]]* 
-  %op15 = bitcast [250000 x i32]* @sheet2 to [500 x [500 x i32]]* 
-  %op8 = load i32, i32* @width
-  %op2 = load i32, i32* @height
+  %op16 = bitcast [250000 x i32]* @sheet1 to [500 x [500 x i32]]* 
+  %op20 = bitcast [250000 x i32]* @sheet2 to [500 x [500 x i32]]* 
+  %op10 = load i32, i32* @width
+  %op4 = load i32, i32* @height
   br label %label_1
 label_1:		; preds = %label_4, %label_0		; succs = %label_2, %label_6
-  %op1 = phi i32 [ 1, %label_0 ], [ %op11, %label_4 ]
-  %op3 = icmp sle i32 %op1, %op2
-  br i1 %op3, label %label_6, label %label_2
+  %op28 = phi i32 [ 1, %label_0 ], [ %op14, %label_4 ]
+  %op5 = icmp sle i32 %op28, %op4
+  br i1 %op5, label %label_6, label %label_2
 label_2:		; preds = %label_1
   ret void
 label_3:		; preds = %label_5, %label_6		; succs = %label_5, %label_4
-  %op7 = phi i32 [ %op18, %label_5 ], [ 1, %label_6 ]
-  %op9 = icmp sle i32 %op7, %op8
-  br i1 %op9, label %label_5, label %label_4
+  %op29 = phi i32 [ %op26, %label_5 ], [ 1, %label_6 ]
+  %op11 = icmp sle i32 %op29, %op10
+  br i1 %op11, label %label_5, label %label_4
 label_4:		; preds = %label_3		; succs = %label_1
-  %op11 = add i32 %op1, 1
+  %op14 = add i32 %op28, 1
   br label %label_1
 label_5:		; preds = %label_3		; succs = %label_3
-  %op19 = getelementptr [500 x i32], [500 x i32]* %op22, i32 0, i32 %op7
-  %op20 = getelementptr [500 x i32], [500 x i32]* %op23, i32 0, i32 %op7
-  %op17 = load i32, i32* %op20
-  store i32 %op17, i32* %op19
-  %op18 = add i32 %op7, 1
+  %op30 = getelementptr [500 x i32], [500 x i32]* %op33, i32 0, i32 %op29
+  %op31 = getelementptr [500 x i32], [500 x i32]* %op34, i32 0, i32 %op29
+  %op24 = load i32, i32* %op31
+  store i32 %op24, i32* %op30
+  %op26 = add i32 %op29, 1
   br label %label_3
 label_6:		; preds = %label_1		; succs = %label_3
-  %op22 = getelementptr [500 x [500 x i32]], [500 x [500 x i32]]* %op13, i32 0, i32 %op1
-  %op23 = getelementptr [500 x [500 x i32]], [500 x [500 x i32]]* %op15, i32 0, i32 %op1
+  %op33 = getelementptr [500 x [500 x i32]], [500 x [500 x i32]]* %op16, i32 0, i32 %op28
+  %op34 = getelementptr [500 x [500 x i32]], [500 x [500 x i32]]* %op20, i32 0, i32 %op28
   br label %label_3
 }
 define void @step([500 x i32]* %arg0, [500 x i32]* %arg1) {
 label_0:		; succs = %label_1
-  %op10 = load i32, i32* @width
-  %op4 = load i32, i32* @height
+  %op15 = load i32, i32* @width
+  %op9 = load i32, i32* @height
   br label %label_1
 label_1:		; preds = %label_4, %label_0		; succs = %label_2, %label_12
-  %op3 = phi i32 [ 1, %label_0 ], [ %op13, %label_4 ]
-  %op5 = icmp sle i32 %op3, %op4
-  br i1 %op5, label %label_12, label %label_2
+  %op112 = phi i32 [ 1, %label_0 ], [ %op19, %label_4 ]
+  %op10 = icmp sle i32 %op112, %op9
+  br i1 %op10, label %label_12, label %label_2
 label_2:		; preds = %label_1
   ret void
 label_3:		; preds = %label_8, %label_12		; succs = %label_5, %label_4
-  %op9 = phi i32 [ %op58, %label_8 ], [ 1, %label_12 ]
-  %op11 = icmp sle i32 %op9, %op10
-  br i1 %op11, label %label_5, label %label_4
+  %op114 = phi i32 [ %op96, %label_8 ], [ 1, %label_12 ]
+  %op16 = icmp sle i32 %op114, %op15
+  br i1 %op16, label %label_5, label %label_4
 label_4:		; preds = %label_3		; succs = %label_1
-  %op13 = add i32 %op3, 1
+  %op19 = add i32 %op112, 1
   br label %label_1
 label_5:		; preds = %label_3		; succs = %label_9, %label_7
-  %op16 = sub i32 %op9, 1
-  %op66 = getelementptr [500 x i32], [500 x i32]* %op82, i32 0, i32 %op16
-  %op18 = load i32, i32* %op66
-  %op67 = getelementptr [500 x i32], [500 x i32]* %op82, i32 0, i32 %op9
-  %op21 = load i32, i32* %op67
-  %op22 = add i32 %op18, %op21
-  %op24 = add i32 %op9, 1
-  %op68 = getelementptr [500 x i32], [500 x i32]* %op82, i32 0, i32 %op24
-  %op26 = load i32, i32* %op68
-  %op27 = add i32 %op22, %op26
-  %op69 = getelementptr [500 x i32], [500 x i32]* %op85, i32 0, i32 %op16
-  %op30 = load i32, i32* %op69
-  %op31 = add i32 %op27, %op30
-  %op70 = getelementptr [500 x i32], [500 x i32]* %op85, i32 0, i32 %op24
-  %op34 = load i32, i32* %op70
-  %op35 = add i32 %op31, %op34
-  %op71 = getelementptr [500 x i32], [500 x i32]* %op87, i32 0, i32 %op16
-  %op39 = load i32, i32* %op71
-  %op40 = add i32 %op35, %op39
-  %op72 = getelementptr [500 x i32], [500 x i32]* %op87, i32 0, i32 %op9
-  %op43 = load i32, i32* %op72
-  %op44 = add i32 %op40, %op43
-  %op73 = getelementptr [500 x i32], [500 x i32]* %op87, i32 0, i32 %op24
-  %op48 = load i32, i32* %op73
-  %op49 = add i32 %op44, %op48
-  %op74 = getelementptr [500 x i32], [500 x i32]* %op85, i32 0, i32 %op9
-  %op51 = load i32, i32* %op74
-  %op52 = icmp eq i32 %op51, 1
-  br i1 %op52, label %label_9, label %label_7
+  %op25 = sub i32 %op114, 1
+  %op116 = getelementptr [500 x i32], [500 x i32]* %op132, i32 0, i32 %op25
+  %op27 = load i32, i32* %op116
+  %op117 = getelementptr [500 x i32], [500 x i32]* %op132, i32 0, i32 %op114
+  %op33 = load i32, i32* %op117
+  %op34 = add i32 %op27, %op33
+  %op39 = add i32 %op114, 1
+  %op118 = getelementptr [500 x i32], [500 x i32]* %op132, i32 0, i32 %op39
+  %op41 = load i32, i32* %op118
+  %op42 = add i32 %op34, %op41
+  %op119 = getelementptr [500 x i32], [500 x i32]* %op135, i32 0, i32 %op25
+  %op48 = load i32, i32* %op119
+  %op49 = add i32 %op42, %op48
+  %op120 = getelementptr [500 x i32], [500 x i32]* %op135, i32 0, i32 %op39
+  %op55 = load i32, i32* %op120
+  %op56 = add i32 %op49, %op55
+  %op121 = getelementptr [500 x i32], [500 x i32]* %op137, i32 0, i32 %op25
+  %op63 = load i32, i32* %op121
+  %op64 = add i32 %op56, %op63
+  %op122 = getelementptr [500 x i32], [500 x i32]* %op137, i32 0, i32 %op114
+  %op70 = load i32, i32* %op122
+  %op71 = add i32 %op64, %op70
+  %op123 = getelementptr [500 x i32], [500 x i32]* %op137, i32 0, i32 %op39
+  %op78 = load i32, i32* %op123
+  %op79 = add i32 %op71, %op78
+  %op124 = getelementptr [500 x i32], [500 x i32]* %op135, i32 0, i32 %op114
+  %op84 = load i32, i32* %op124
+  %op85 = icmp eq i32 %op84, 1
+  br i1 %op85, label %label_9, label %label_7
 label_6:		; preds = %label_9		; succs = %label_8
-  %op75 = getelementptr [500 x i32], [500 x i32]* %op79, i32 0, i32 %op9
-  store i32 1, i32* %op75
+  %op125 = getelementptr [500 x i32], [500 x i32]* %op129, i32 0, i32 %op114
+  store i32 1, i32* %op125
   br label %label_8
 label_7:		; preds = %label_5, %label_9		; succs = %label_10, %label_11
-  %op56 = icmp eq i32 %op49, 3
-  br i1 %op56, label %label_10, label %label_11
+  %op93 = icmp eq i32 %op79, 3
+  br i1 %op93, label %label_10, label %label_11
 label_8:		; preds = %label_6, %label_10, %label_11		; succs = %label_3
-  %op58 = add i32 %op9, 1
+  %op96 = add i32 %op114, 1
   br label %label_3
 label_9:		; preds = %label_5		; succs = %label_6, %label_7
-  %op60 = icmp eq i32 %op49, 2
-  br i1 %op60, label %label_6, label %label_7
+  %op99 = icmp eq i32 %op79, 2
+  br i1 %op99, label %label_6, label %label_7
 label_10:		; preds = %label_7		; succs = %label_8
-  %op76 = getelementptr [500 x i32], [500 x i32]* %op79, i32 0, i32 %op9
-  store i32 1, i32* %op76
+  %op126 = getelementptr [500 x i32], [500 x i32]* %op129, i32 0, i32 %op114
+  store i32 1, i32* %op126
   br label %label_8
 label_11:		; preds = %label_7		; succs = %label_8
-  %op77 = getelementptr [500 x i32], [500 x i32]* %op79, i32 0, i32 %op9
-  store i32 0, i32* %op77
+  %op127 = getelementptr [500 x i32], [500 x i32]* %op129, i32 0, i32 %op114
+  store i32 0, i32* %op127
   br label %label_8
 label_12:		; preds = %label_1		; succs = %label_3
-  %op79 = getelementptr [500 x i32], [500 x i32]* %arg1, i32 %op3
-  %op15 = sub i32 %op3, 1
-  %op82 = getelementptr [500 x i32], [500 x i32]* %arg0, i32 %op15
-  %op85 = getelementptr [500 x i32], [500 x i32]* %arg0, i32 %op3
-  %op36 = add i32 %op3, 1
-  %op87 = getelementptr [500 x i32], [500 x i32]* %arg0, i32 %op36
+  %op129 = getelementptr [500 x i32], [500 x i32]* %arg1, i32 %op112
+  %op23 = sub i32 %op112, 1
+  %op132 = getelementptr [500 x i32], [500 x i32]* %arg0, i32 %op23
+  %op135 = getelementptr [500 x i32], [500 x i32]* %arg0, i32 %op112
+  %op59 = add i32 %op112, 1
+  %op137 = getelementptr [500 x i32], [500 x i32]* %arg0, i32 %op59
   br label %label_3
 }
 define i32 @main() {

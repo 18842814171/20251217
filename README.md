@@ -1,5 +1,8 @@
 PS D:\作业\编译原理\T202510358205721-859-main> wsl
 wsl: 检测到 localhost 代理配置，但未镜像到 WSL。NAT 模式下的 WSL 不支持 localhost 代理。
+# 所有命令在根目录运行
+* 项目作者把test.cpp改名称了，改回来：本次把tests/test.cppnotcp 改成tests/test1.cpp
+
 lyz@LYZ:/mnt/d/作业/编译原理/T202510358205721-859-main$ g++ -g tests/test1.cpp -o test
 lyz@LYZ:/mnt/d/作业/编译原理/T202510358205721-859-main$ ./test functional
 依赖库编译失败:
@@ -19,6 +22,9 @@ ar: ./build/sylib.o: No such file or directory
 ar: ./build/sylib++.o: No such file or directory
 rm: cannot remove './build/sylib.o': No such file or directory
 rm: cannot remove './build/sylib++.o': No such file or directory
+
+* 项目作者把库名称改了，执行时把lib/文件夹下“c1”“h1”的1都删掉
+
 lyz@LYZ:/mnt/d/作业/编译原理/T202510358205721-859-main$ source tests/compileLib.sh
 lyz@LYZ:/mnt/d/作业/编译原理/T202510358205721-859-main$ ./test functional
 checking tests/functional/gameoflife-gosper.sy
