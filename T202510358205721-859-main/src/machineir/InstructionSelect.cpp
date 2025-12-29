@@ -5,7 +5,7 @@
 #include "Constant.hpp"
 #include "Instruction.hpp"
 
-#define DEBUG 0
+#define DEBUG 1
 #include "Util.hpp"
 
 using namespace std;

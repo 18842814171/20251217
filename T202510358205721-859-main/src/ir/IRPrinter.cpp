@@ -6,7 +6,7 @@
 #include <Function.hpp>
 #include <GlobalVariable.hpp>
 #include <cassert>
-
+#define DEBUG 0
 #include "Util.hpp"
 
 std::string print_as_op(Value* v, bool print_ty)

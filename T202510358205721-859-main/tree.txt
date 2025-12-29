@@ -1,0 +1,488 @@
+.
+├── 1228.md
+├── CHANGELOG.md
+├── CMakeLists.txt
+├── Makefile
+├── Makefile1
+├── README.md
+├── antlr
+│   ├── README.md
+│   ├── SysY.g4
+│   ├── SysY.interp
+│   ├── SysY.tokens
+│   ├── SysYBaseListener.cpp
+│   ├── SysYBaseListener.h
+│   ├── SysYBaseVisitor.cpp
+│   ├── SysYBaseVisitor.h
+│   ├── SysYLexer.cpp
+│   ├── SysYLexer.h
+│   ├── SysYLexer.interp
+│   ├── SysYLexer.tokens
+│   ├── SysYListener.cpp
+│   ├── SysYListener.h
+│   ├── SysYParser.cpp
+│   ├── SysYParser.h
+│   ├── SysYVisitor.cpp
+│   ├── SysYVisitor.h
+│   ├── antlr4_install.sh
+│   └── sysY_EBNF.txt
+├── build
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   │   ├── 3.28.3
+│   │   │   ├── CMakeCCompiler.cmake
+│   │   │   ├── CMakeCXXCompiler.cmake
+│   │   │   ├── CMakeDetermineCompilerABI_C.bin
+│   │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│   │   │   ├── CMakeSystem.cmake
+│   │   │   ├── CompilerIdC
+│   │   │   │   ├── CMakeCCompilerId.c
+│   │   │   │   ├── a.out
+│   │   │   │   └── tmp
+│   │   │   └── CompilerIdCXX
+│   │   │       ├── CMakeCXXCompilerId.cpp
+│   │   │       ├── a.out
+│   │   │       └── tmp
+│   │   ├── CMakeConfigureLog.yaml
+│   │   ├── CMakeDirectoryInformation.cmake
+│   │   ├── CMakeScratch
+│   │   ├── Makefile.cmake
+│   │   ├── Makefile2
+│   │   ├── TargetDirectories.txt
+│   │   ├── antlr_sysy.dir
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── antlr
+│   │   │   │   ├── SysYBaseListener.cpp.o
+│   │   │   │   ├── SysYBaseListener.cpp.o.d
+│   │   │   │   ├── SysYBaseVisitor.cpp.o
+│   │   │   │   ├── SysYBaseVisitor.cpp.o.d
+│   │   │   │   ├── SysYLexer.cpp.o
+│   │   │   │   ├── SysYLexer.cpp.o.d
+│   │   │   │   ├── SysYListener.cpp.o
+│   │   │   │   ├── SysYListener.cpp.o.d
+│   │   │   │   ├── SysYParser.cpp.o
+│   │   │   │   ├── SysYParser.cpp.o.d
+│   │   │   │   ├── SysYVisitor.cpp.o
+│   │   │   │   └── SysYVisitor.cpp.o.d
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   └── progress.make
+│   │   ├── cmake.check_cache
+│   │   ├── compiler.dir
+│   │   │   ├── DependInfo.cmake
+│   │   │   ├── build.make
+│   │   │   ├── cmake_clean.cmake
+│   │   │   ├── compiler_depend.make
+│   │   │   ├── compiler_depend.ts
+│   │   │   ├── depend.make
+│   │   │   ├── flags.make
+│   │   │   ├── link.txt
+│   │   │   ├── progress.make
+│   │   │   └── src
+│   │   │       ├── ast
+│   │   │       │   ├── Antlr2Ast.cpp.o
+│   │   │       │   ├── Antlr2Ast.cpp.o.d
+│   │   │       │   ├── Ast.cpp.o
+│   │   │       │   ├── Ast.cpp.o.d
+│   │   │       │   ├── EmptyAntlrVisitor.cpp.o
+│   │   │       │   └── EmptyAntlrVisitor.cpp.o.d
+│   │   │       ├── codegen
+│   │   │       │   ├── ARM_codegen.cpp.o
+│   │   │       │   ├── ARM_codegen.cpp.o.d
+│   │   │       │   ├── BlockLayout.cpp.o
+│   │   │       │   ├── BlockLayout.cpp.o.d
+│   │   │       │   ├── CleanCode.cpp.o
+│   │   │       │   ├── CleanCode.cpp.o.d
+│   │   │       │   ├── CodeGen.cpp.o
+│   │   │       │   ├── CodeGen.cpp.o.d
+│   │   │       │   ├── FrameOffset.cpp.o
+│   │   │       │   ├── FrameOffset.cpp.o.d
+│   │   │       │   ├── InterfereGraph.cpp.o
+│   │   │       │   ├── InterfereGraph.cpp.o.d
+│   │   │       │   ├── LiveMessage.cpp.o
+│   │   │       │   ├── LiveMessage.cpp.o.d
+│   │   │       │   ├── LoadStoreEliminate.cpp.o
+│   │   │       │   ├── LoadStoreEliminate.cpp.o.d
+│   │   │       │   ├── MachineDominator.cpp.o
+│   │   │       │   ├── MachineDominator.cpp.o.d
+│   │   │       │   ├── MachineLoopDetection.cpp.o
+│   │   │       │   ├── MachineLoopDetection.cpp.o.d
+│   │   │       │   ├── RegPrefill.cpp.o
+│   │   │       │   ├── RegPrefill.cpp.o.d
+│   │   │       │   ├── RegSpill.cpp.o
+│   │   │       │   ├── RegSpill.cpp.o.d
+│   │   │       │   ├── RegisterAllocate.cpp.o
+│   │   │       │   ├── RegisterAllocate.cpp.o.d
+│   │   │       │   ├── RemoveEmptyBlocks.cpp.o
+│   │   │       │   ├── RemoveEmptyBlocks.cpp.o.d
+│   │   │       │   ├── ReturnMerge.cpp.o
+│   │   │       │   └── ReturnMerge.cpp.o.d
+│   │   │       ├── compiler.cpp.o
+│   │   │       ├── compiler.cpp.o.d
+│   │   │       ├── ir
+│   │   │       │   ├── AST2IR.cpp.o
+│   │   │       │   ├── AST2IR.cpp.o.d
+│   │   │       │   ├── BasicBlock.cpp.o
+│   │   │       │   ├── BasicBlock.cpp.o.d
+│   │   │       │   ├── Constant.cpp.o
+│   │   │       │   ├── Constant.cpp.o.d
+│   │   │       │   ├── Function.cpp.o
+│   │   │       │   ├── Function.cpp.o.d
+│   │   │       │   ├── GlobalVariable.cpp.o
+│   │   │       │   ├── GlobalVariable.cpp.o.d
+│   │   │       │   ├── IRPrinter.cpp.o
+│   │   │       │   ├── IRPrinter.cpp.o.d
+│   │   │       │   ├── Instruction.cpp.o
+│   │   │       │   ├── Instruction.cpp.o.d
+│   │   │       │   ├── InstructionList.cpp.o
+│   │   │       │   ├── InstructionList.cpp.o.d
+│   │   │       │   ├── Module.cpp.o
+│   │   │       │   ├── Module.cpp.o.d
+│   │   │       │   ├── Value.cpp.o
+│   │   │       │   └── Value.cpp.o.d
+│   │   │       ├── machineir
+│   │   │       │   ├── CmpCombine.cpp.o
+│   │   │       │   ├── CmpCombine.cpp.o.d
+│   │   │       │   ├── CriticalEdgeRemove.cpp.o
+│   │   │       │   ├── CriticalEdgeRemove.cpp.o.d
+│   │   │       │   ├── IR2MIR.cpp.o
+│   │   │       │   ├── IR2MIR.cpp.o.d
+│   │   │       │   ├── InstructionSelect.cpp.o
+│   │   │       │   ├── InstructionSelect.cpp.o.d
+│   │   │       │   ├── MachineBasicBlock.cpp.o
+│   │   │       │   ├── MachineBasicBlock.cpp.o.d
+│   │   │       │   ├── MachineFunction.cpp.o
+│   │   │       │   ├── MachineFunction.cpp.o.d
+│   │   │       │   ├── MachineInstruction.cpp.o
+│   │   │       │   ├── MachineInstruction.cpp.o.d
+│   │   │       │   ├── MachineModule.cpp.o
+│   │   │       │   ├── MachineModule.cpp.o.d
+│   │   │       │   ├── MachineOperand.cpp.o
+│   │   │       │   └── MachineOperand.cpp.o.d
+│   │   │       ├── passes
+│   │   │       │   ├── Arithmetic.cpp.o
+│   │   │       │   ├── Arithmetic.cpp.o.d
+│   │   │       │   ├── ConstGlobalEliminate.cpp.o
+│   │   │       │   ├── ConstGlobalEliminate.cpp.o.d
+│   │   │       │   ├── DeadCode.cpp.o
+│   │   │       │   ├── DeadCode.cpp.o.d
+│   │   │       │   ├── Dominators.cpp.o
+│   │   │       │   ├── Dominators.cpp.o.d
+│   │   │       │   ├── FuncInfo.cpp.o
+│   │   │       │   ├── FuncInfo.cpp.o.d
+│   │   │       │   ├── GCM.cpp.o
+│   │   │       │   ├── GCM.cpp.o.d
+│   │   │       │   ├── GVN.cpp.o
+│   │   │       │   ├── GVN.cpp.o.d
+│   │   │       │   ├── GetElementSplit.cpp.o
+│   │   │       │   ├── GetElementSplit.cpp.o.d
+│   │   │       │   ├── GlobalArrayReverse.cpp.o
+│   │   │       │   ├── GlobalArrayReverse.cpp.o.d
+│   │   │       │   ├── Inline.cpp.o
+│   │   │       │   ├── Inline.cpp.o.d
+│   │   │       │   ├── LCSSA.cpp.o
+│   │   │       │   ├── LCSSA.cpp.o.d
+│   │   │       │   ├── LICM.cpp.o
+│   │   │       │   ├── LICM.cpp.o.d
+│   │   │       │   ├── LocalConstGlobalMatching.cpp.o
+│   │   │       │   ├── LocalConstGlobalMatching.cpp.o.d
+│   │   │       │   ├── LoopDetection.cpp.o
+│   │   │       │   ├── LoopDetection.cpp.o.d
+│   │   │       │   ├── LoopRotate.cpp.o
+│   │   │       │   ├── LoopRotate.cpp.o.d
+│   │   │       │   ├── LoopSimplify.cpp.o
+│   │   │       │   ├── LoopSimplify.cpp.o.d
+│   │   │       │   ├── Mem2Reg.cpp.o
+│   │   │       │   ├── Mem2Reg.cpp.o.d
+│   │   │       │   ├── PhiEliminate.cpp.o
+│   │   │       │   ├── PhiEliminate.cpp.o.d
+│   │   │       │   ├── Print.cpp.o
+│   │   │       │   ├── Print.cpp.o.d
+│   │   │       │   ├── SCCP.cpp.o
+│   │   │       │   ├── SCCP.cpp.o.d
+│   │   │       │   ├── SignalSpread.cpp.o
+│   │   │       │   └── SignalSpread.cpp.o.d
+│   │   │       └── util
+│   │   │           ├── CodeString.cpp.o
+│   │   │           ├── CodeString.cpp.o.d
+│   │   │           ├── Color.cpp.o
+│   │   │           ├── Color.cpp.o.d
+│   │   │           ├── Config.cpp.o
+│   │   │           ├── Config.cpp.o.d
+│   │   │           ├── DynamicBitset.cpp.o
+│   │   │           ├── DynamicBitset.cpp.o.d
+│   │   │           ├── System.cpp.o
+│   │   │           ├── System.cpp.o.d
+│   │   │           ├── Tensor.cpp.o
+│   │   │           ├── Tensor.cpp.o.d
+│   │   │           ├── Type.cpp.o
+│   │   │           └── Type.cpp.o.d
+│   │   ├── pkgRedirects
+│   │   └── progress.marks
+│   ├── Makefile
+│   ├── cmake_install.cmake
+│   ├── compiler
+│   ├── custom
+│   │   └── functional
+│   │       ├── gameoflife-gosper
+│   │       ├── gameoflife-gosper.ll
+│   │       ├── gameoflife-gosper.out
+│   │       ├── gameoflife-gosper.s
+│   │       ├── gameoflife-gosper.time
+│   │       ├── gameoflife-oscillator
+│   │       ├── gameoflife-oscillator.ll
+│   │       ├── gameoflife-oscillator.out
+│   │       ├── gameoflife-oscillator.s
+│   │       ├── gameoflife-oscillator.time
+│   │       ├── gameoflife-p61glidergun
+│   │       ├── gameoflife-p61glidergun.ll
+│   │       ├── gameoflife-p61glidergun.out
+│   │       ├── gameoflife-p61glidergun.s
+│   │       └── gameoflife-p61glidergun.time
+│   ├── example
+│   │   └── functional
+│   │       ├── gameoflife-gosper.out
+│   │       ├── gameoflife-gosper.time
+│   │       ├── gameoflife-oscillator.out
+│   │       ├── gameoflife-oscillator.time
+│   │       ├── gameoflife-p61glidergun.out
+│   │       └── gameoflife-p61glidergun.time
+│   ├── lib
+│   │   ├── sylib++.a
+│   │   └── sylib.a
+│   └── libantlr_sysy.so
+├── gameoflife
+├── gameoflife.ll
+├── gameoflife.s
+├── include
+│   ├── ast
+│   │   ├── Antlr2Ast.hpp
+│   │   ├── Ast.hpp
+│   │   └── EmptyAntlrVisitor.hpp
+│   ├── codegen
+│   │   ├── ARM_codegen.hpp
+│   │   ├── BlockLayout.hpp
+│   │   ├── CleanCode.hpp
+│   │   ├── CodeGen.hpp
+│   │   ├── FrameOffset.hpp
+│   │   ├── InterfereGraph.hpp
+│   │   ├── LiveMessage.hpp
+│   │   ├── LoadStoreEliminate.hpp
+│   │   ├── MachineDominator.hpp
+│   │   ├── MachineLoopDetection.hpp
+│   │   ├── RegPrefill.hpp
+│   │   ├── RegSpill.hpp
+│   │   ├── RegisterAllocate.hpp
+│   │   ├── RemoveEmptyBlocks.hpp
+│   │   └── ReturnMerge.hpp
+│   ├── ir
+│   │   ├── AST2IR.hpp
+│   │   ├── BasicBlock.hpp
+│   │   ├── Constant.hpp
+│   │   ├── Function.hpp
+│   │   ├── GlobalVariable.hpp
+│   │   ├── IRBuilder.hpp
+│   │   ├── IRPrinter.hpp
+│   │   ├── Instruction.hpp
+│   │   ├── InstructionList.hpp
+│   │   ├── Module.hpp
+│   │   └── Value.hpp
+│   ├── machineir
+│   │   ├── CmpCombine.hpp
+│   │   ├── CriticalEdgeRemove.hpp
+│   │   ├── InstructionSelect.hpp
+│   │   ├── MachineBasicBlock.hpp
+│   │   ├── MachineFunction.hpp
+│   │   ├── MachineInstruction.hpp
+│   │   ├── MachineModule.hpp
+│   │   ├── MachineOperand.hpp
+│   │   └── MachinePassManager.hpp
+│   ├── passes
+│   │   ├── Arithmetic.hpp
+│   │   ├── ConstGlobalEliminate.hpp
+│   │   ├── DeadCode.hpp
+│   │   ├── Dominators.hpp
+│   │   ├── FuncInfo.hpp
+│   │   ├── GCM.hpp
+│   │   ├── GVN.hpp
+│   │   ├── GetElementSplit.hpp
+│   │   ├── GlobalArrayReverse.hpp
+│   │   ├── Inline.hpp
+│   │   ├── LCSSA.hpp
+│   │   ├── LICM.hpp
+│   │   ├── LocalConstGlobalMatching.hpp
+│   │   ├── LoopDetection.hpp
+│   │   ├── LoopRotate.hpp
+│   │   ├── LoopSimplify.hpp
+│   │   ├── Mem2Reg.hpp
+│   │   ├── PassManager.hpp
+│   │   ├── PhiEliminate.hpp
+│   │   ├── Print.hpp
+│   │   ├── SCCP.hpp
+│   │   └── SignalSpread.hpp
+│   └── util
+│       ├── CodeString.hpp
+│       ├── Color.hpp
+│       ├── Config.hpp
+│       ├── CountLZ.hpp
+│       ├── DynamicBitset.hpp
+│       ├── System.hpp
+│       ├── Tensor.hpp
+│       ├── Type.hpp
+│       └── Util.hpp
+├── lib
+│   ├── sylib.c1
+│   └── sylib.h1
+├── out
+│   └── build
+│       └── x64-Debug
+│           ├── CMakeCache.txt
+│           ├── CMakeFiles
+│           │   ├── 3.31.6-msvc6
+│           │   │   ├── CMakeCCompiler.cmake
+│           │   │   ├── CMakeCXXCompiler.cmake
+│           │   │   ├── CMakeDetermineCompilerABI_C.bin
+│           │   │   ├── CMakeDetermineCompilerABI_CXX.bin
+│           │   │   ├── CMakeRCCompiler.cmake
+│           │   │   ├── CMakeSystem.cmake
+│           │   │   ├── CompilerIdC
+│           │   │   │   ├── CMakeCCompilerId.c
+│           │   │   │   ├── CMakeCCompilerId.exe
+│           │   │   │   ├── CMakeCCompilerId.obj
+│           │   │   │   └── tmp
+│           │   │   └── CompilerIdCXX
+│           │   │       ├── CMakeCXXCompilerId.cpp
+│           │   │       ├── CMakeCXXCompilerId.exe
+│           │   │       ├── CMakeCXXCompilerId.obj
+│           │   │       └── tmp
+│           │   ├── CMakeConfigureLog.yaml
+│           │   ├── CMakeScratch
+│           │   ├── ShowIncludes
+│           │   │   ├── foo.h
+│           │   │   ├── main.c
+│           │   │   └── main.obj
+│           │   ├── TargetDirectories.txt
+│           │   ├── antlr_sysy.dir
+│           │   │   └── antlr
+│           │   ├── cmake.check_cache
+│           │   ├── compiler.dir
+│           │   │   └── src
+│           │   │       ├── ast
+│           │   │       ├── codegen
+│           │   │       ├── ir
+│           │   │       ├── machineir
+│           │   │       ├── passes
+│           │   │       └── util
+│           │   ├── pkgRedirects
+│           │   └── rules.ninja
+│           ├── Testing
+│           │   └── Temporary
+│           │       └── LastTest.log
+│           ├── VSInheritEnvironments.txt
+│           ├── build.ninja
+│           └── cmake_install.cmake
+├── src
+│   ├── ast
+│   │   ├── Antlr2Ast.cpp
+│   │   ├── Ast.cpp
+│   │   └── EmptyAntlrVisitor.cpp
+│   ├── codegen
+│   │   ├── ARM_codegen.cpp
+│   │   ├── BlockLayout.cpp
+│   │   ├── CleanCode.cpp
+│   │   ├── CodeGen.cpp
+│   │   ├── FrameOffset.cpp
+│   │   ├── InterfereGraph.cpp
+│   │   ├── LiveMessage.cpp
+│   │   ├── LoadStoreEliminate.cpp
+│   │   ├── MachineDominator.cpp
+│   │   ├── MachineLoopDetection.cpp
+│   │   ├── RegPrefill.cpp
+│   │   ├── RegSpill.cpp
+│   │   ├── RegisterAllocate.cpp
+│   │   ├── RemoveEmptyBlocks.cpp
+│   │   └── ReturnMerge.cpp
+│   ├── compiler.cpp
+│   ├── ir
+│   │   ├── AST2IR.cpp
+│   │   ├── BasicBlock.cpp
+│   │   ├── Constant.cpp
+│   │   ├── Function.cpp
+│   │   ├── GlobalVariable.cpp
+│   │   ├── IRPrinter.cpp
+│   │   ├── Instruction.cpp
+│   │   ├── InstructionList.cpp
+│   │   ├── Module.cpp
+│   │   └── Value.cpp
+│   ├── machineir
+│   │   ├── CmpCombine.cpp
+│   │   ├── CriticalEdgeRemove.cpp
+│   │   ├── IR2MIR.cpp
+│   │   ├── InstructionSelect.cpp
+│   │   ├── MachineBasicBlock.cpp
+│   │   ├── MachineFunction.cpp
+│   │   ├── MachineInstruction.cpp
+│   │   ├── MachineModule.cpp
+│   │   └── MachineOperand.cpp
+│   ├── passes
+│   │   ├── Arithmetic.cpp
+│   │   ├── ConstGlobalEliminate.cpp
+│   │   ├── DeadCode.cpp
+│   │   ├── Dominators.cpp
+│   │   ├── FuncInfo.cpp
+│   │   ├── GCM.cpp
+│   │   ├── GVN.cpp
+│   │   ├── GetElementSplit.cpp
+│   │   ├── GlobalArrayReverse.cpp
+│   │   ├── Inline.cpp
+│   │   ├── LCSSA.cpp
+│   │   ├── LICM.cpp
+│   │   ├── LocalConstGlobalMatching.cpp
+│   │   ├── LoopDetection.cpp
+│   │   ├── LoopRotate.cpp
+│   │   ├── LoopSimplify.cpp
+│   │   ├── Mem2Reg.cpp
+│   │   ├── PhiEliminate.cpp
+│   │   ├── Print.cpp
+│   │   ├── SCCP.cpp
+│   │   └── SignalSpread.cpp
+│   └── util
+│       ├── CodeString.cpp
+│       ├── Color.cpp
+│       ├── Config.cpp
+│       ├── DynamicBitset.cpp
+│       ├── System.cpp
+│       ├── Tensor.cpp
+│       └── Type.cpp
+├── test
+├── tests
+│   ├── README.md
+│   ├── astTest.sh
+│   ├── codegenO1Test.sh
+│   ├── codegenTest.sh
+│   ├── codegen_check.sh
+│   ├── compileLib.sh
+│   ├── compileTest.sh
+│   ├── functional
+│   │   ├── gameoflife-gosper.in
+│   │   ├── gameoflife-gosper.out
+│   │   ├── gameoflife-gosper.sy
+│   │   ├── gameoflife-oscillator.in
+│   │   ├── gameoflife-oscillator.out
+│   │   ├── gameoflife-oscillator.sy
+│   │   ├── gameoflife-p61glidergun.in
+│   │   ├── gameoflife-p61glidergun.out
+│   │   └── gameoflife-p61glidergun.sy
+│   ├── irTest.sh
+│   ├── passesTest.sh
+│   ├── passesTest2.sh
+│   ├── test.cppnotcp
+│   └── test1.cpp
+└── tree.txt
+
+67 directories, 419 files

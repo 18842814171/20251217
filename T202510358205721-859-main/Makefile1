@@ -26,3 +26,5 @@ clean:
 	rm -f $(OBJ_FILES) $(DEP_FILES) $(TARGET)
 
 .PHONY: all clean
+
+# make -f Makefile1 -j$(nproc)

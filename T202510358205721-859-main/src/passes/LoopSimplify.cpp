@@ -2,7 +2,7 @@
 
 #include "LoopDetection.hpp"
 
-#define DEBUG 0
+#define DEBUG 1
 #include <algorithm>
 #include <queue>
 

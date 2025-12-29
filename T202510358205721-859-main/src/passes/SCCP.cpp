@@ -12,7 +12,7 @@
 #include "Module.hpp"
 #include "Value.hpp"
 
-#define DEBUG 0
+#define DEBUG 1
 #include "FuncInfo.hpp"
 #include "SignalSpread.hpp"
 #include "Util.hpp"

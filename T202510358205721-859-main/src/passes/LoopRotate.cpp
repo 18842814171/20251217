@@ -1,7 +1,7 @@
 #include "LoopRotate.hpp"
 #include "LoopDetection.hpp"
 
-#define DEBUG 0
+#define DEBUG 1
 #include "Config.hpp"
 #include "Util.hpp"
 using namespace std;

@@ -3,7 +3,7 @@
 #include "FuncInfo.hpp"
 #include "LoopDetection.hpp"
 
-#define DEBUG 0
+#define DEBUG 1
 #include "Util.hpp"
 
 bool GlobalCodeMotion::is_pinned(const Instruction* i) const
